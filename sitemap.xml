@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://erak.github.io/webstage/categories/</loc>
+    <loc>https://erak.github.io/webstage/</loc>
+    <lastmod>2019-04-13T22:47:09+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://erak.github.io/webstage/</loc>
+    <loc>https://erak.github.io/webstage/impress/</loc>
+    <lastmod>2019-04-13T22:47:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erak.github.io/webstage/privacy/</loc>
+    <lastmod>2019-04-13T22:47:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://erak.github.io/webstage/categories/</loc>
   </url>
   
   <url>

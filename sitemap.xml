@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://erak.github.io/webstage/</loc>
+    <loc>https://erak.github.io/deep-dance-webstage/</loc>
+    <lastmod>2021-05-20T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/gallery/</loc>
+    <lastmod>2021-05-20T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/gallery/video/</loc>
+    <lastmod>2021-05-20T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/gallery/visualizer/</loc>
+    <lastmod>2021-05-18T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/gallery/code/</loc>
+    <lastmod>2021-05-17T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/gallery/about/</loc>
+    <lastmod>2021-05-13T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/impress/</loc>
     <lastmod>2019-04-13T22:47:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erak.github.io/webstage/impress/</loc>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/privacy/</loc>
     <lastmod>2019-04-13T22:47:09+02:00</lastmod>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/categories/</loc>
+  </url><url>
+    <loc>https://erak.github.io/deep-dance-webstage/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://erak.github.io/webstage/privacy/</loc>
-    <lastmod>2019-04-13T22:47:09+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erak.github.io/webstage/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://erak.github.io/webstage/tags/</loc>
-  </url>
-  
 </urlset>

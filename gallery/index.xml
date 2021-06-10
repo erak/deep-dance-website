@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galleries on deep.dance</title>
-    <link>https://erak.github.io/deep-dance-webstage/gallery/</link>
+    <link>https://erak.github.io/deep-dance-website/gallery/</link>
     <description>Recent content in Galleries on deep.dance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 May 2021 22:47:09 +0200</lastBuildDate><atom:link href="https://erak.github.io/deep-dance-webstage/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 22:47:09 +0200</lastBuildDate><atom:link href="https://erak.github.io/deep-dance-website/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Watch full show</title>
-      <link>https://erak.github.io/deep-dance-webstage/gallery/show/</link>
+      <link>https://erak.github.io/deep-dance-website/gallery/show/</link>
       <pubDate>Thu, 20 May 2021 22:47:09 +0200</pubDate>
       
-      <guid>https://erak.github.io/deep-dance-webstage/gallery/show/</guid>
+      <guid>https://erak.github.io/deep-dance-website/gallery/show/</guid>
       <description>Enter the hermetically soft world of code. Human, Transhuman. Machine learning. Dance. Computation. Creativity. Prediction. Soft-ware. Choreography.Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Watch choreography</title>
-      <link>https://erak.github.io/deep-dance-webstage/gallery/choreography/</link>
+      <link>https://erak.github.io/deep-dance-website/gallery/choreography/</link>
       <pubDate>Tue, 18 May 2021 22:47:09 +0200</pubDate>
       
-      <guid>https://erak.github.io/deep-dance-webstage/gallery/choreography/</guid>
+      <guid>https://erak.github.io/deep-dance-website/gallery/choreography/</guid>
       <description>Press the left mouse or touchpad button and move the mouse or touchpad to look around. Scroll with your mouse or touchpad to zoom in or out.Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</description>
     </item>
     
     <item>
       <title>Explore code</title>
-      <link>https://erak.github.io/deep-dance-webstage/gallery/code/</link>
+      <link>https://erak.github.io/deep-dance-website/gallery/code/</link>
       <pubDate>Mon, 17 May 2021 22:47:09 +0200</pubDate>
       
-      <guid>https://erak.github.io/deep-dance-webstage/gallery/code/</guid>
+      <guid>https://erak.github.io/deep-dance-website/gallery/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About the piece</title>
-      <link>https://erak.github.io/deep-dance-webstage/gallery/about/</link>
+      <link>https://erak.github.io/deep-dance-website/gallery/about/</link>
       <pubDate>Thu, 13 May 2021 22:47:09 +0200</pubDate>
       
-      <guid>https://erak.github.io/deep-dance-webstage/gallery/about/</guid>
+      <guid>https://erak.github.io/deep-dance-website/gallery/about/</guid>
       <description>In Deep.Dance, a team of international artists replaces itself with an artificial intelligence. A complete choreography, created by an artificial neural network that they programmed, is executed down to the last detail by three dancers. The strangely familiar movements open up an emphatic view into the hyper-logical world of code and confront the viewers with a construct that is accessible to few people and yet determines our future. The Hamburg based choreographer Jascha Viehstädt creates a silent and soft world of statistically predetermined movements that makes tangible what it means to have human creativity computed by a machine.</description>
     </item>
     

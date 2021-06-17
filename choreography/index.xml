@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Watch original AI material on deep.dance</title>
-    <link>https://deep.dance/choreography/</link>
+    <link>https://erak.github.io/deep-dance-website/choreography/</link>
     <description>Recent content in Watch original AI material on deep.dance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 May 2021 22:47:09 +0200</lastBuildDate>
     
-	<atom:link href="https://deep.dance/choreography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erak.github.io/deep-dance-website/choreography/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -44,17 +44,23 @@
 <br/>
 <br/>
 <h1 id="overview">Overview</h1>
-<p>The set of software components of Deep.Dance contains a system, that uses to machine learning to study exisiting and create new movement sequences. In order to visualize these newly created movement sequences a web-based component, that could render them, was added. An additional web-based component, that can control and animate a LED light setup on stage, was also added.</p>
+<p>The core software component of Deep.Dance is a system, that uses to machine learning to study exisiting and create new movement sequences. In order to visualize these newly created movement sequences a web-based component, that could render them, was developed. An additional web-based component, that can control and animate a LED light setup on stage, was also to the set of components.</p>
 <h1 id="machine-learning">Machine Learning</h1>
+<p>The purpose of the main software component was to extract movement sequences from existing video recordings, train a neural network such that it can predict subsequent movements and generate new movement sequence from arbitrary input movements. This resulted in a pipeline design that involved the stages described in the sections below.</p>
 <h2 id="dataset">Dataset</h2>
+<p>First of all, a dataset that is needed for the training of the neural network was created. Since the aim was to create new movement sequences, it was decided to use an image-based approach and record videos of several predefined movement qualities done by several dancers. These videos are then fed into the first stage of the pipeline which uses the software libraries <a href="https://github.com/facebookresearch/detectron2">Detectron2 →</a> and <a href="https://github.com/facebookresearch/VideoPose3D">VideoPose3D →</a> to analyse all videos frame by frame and extract movement information in the form of keypoints. These keypoints are a representation of movement information of a human body. The following figure illustrates this by a rendering of extracted keypoints for the very same frame of an input video:</p>
 <p><img src="https://erak.github.io/deep-dance-website/code_single_01.png#img-small" alt="">
 <img src="https://erak.github.io/deep-dance-website/code_single_02.png#img-small" alt=""></p>
+<p>Since a video contains of a time series of frames, the result of the extraction process is also a time series, but of keypoints instead of frames.</p>
+<p>Please refer to the <a href="https://github.com/deep-dance/core/">Github →</a> documentation for more information.</p>
 <h2 id="training">Training</h2>
-<p>TBD</p>
+<p>In the next stage, the previously extracted keypoint sequences are used to train a neural network we developed, in order to generate new keypoint sequences. This was achieved by using a recurrent neural network design. These networks can analyze given time series and make predictions about the most likely next value in such a time series.</p>
 <h2 id="visualization">Visualization</h2>
-<p><a href="https://github.com/deep-dance/visualizer">Github →</a></p>
+<p>Since the aim of Deep.Dance was to have human dancers perform generated movement sequences, there was a need for a tool that could create a visual representation of these sequences. This tool facilitated the learning process by providing a sequence player with controls known from video players, such as play, pause etc.</p>
+<p>Please refer to the <a href="https://github.com/deep-dance/visualizer/">Github →</a> documentation for more information.</p>
 <h1 id="light-animation">Light animation</h1>
-<p>The stage design of Deep.Dance required a custom light control system that was able to animate LED lights based on the data points in the created movement sequences. Read more and get the code on <a href="https://github.com/deep-dance/lights">Github →</a>.</p>
+<p>The stage design of Deep.Dance required a custom light control system that was able to animate LED lights based on the data points in the created movement sequences.</p>
+<p>Read more and get the code on <a href="https://github.com/deep-dance/lights">Github →</a>.</p>
 
                 
             </div>

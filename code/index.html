@@ -53,6 +53,12 @@
 <img src="https://erak.github.io/deep-dance-website/code_single_02.png#img-small" alt=""></p>
 <p>Since a video contains of a time series of frames, the result of the extraction process is also a time series, but of keypoints instead of frames.</p>
 <p>Please refer to the <a href="https://github.com/deep-dance/core/">Github →</a> documentation for more information.</p>
+<h3 id="software">Software</h3>
+<ul>
+<li><a href="https://github.com/facebookresearch/detectron2">Detectron2 →</a></li>
+<li><a href="https://github.com/facebookresearch/VideoPose3D">VideoPose3D →</a></li>
+</ul>
+<br/>
 <h2 id="training">Training</h2>
 <p>In the next stage, the previously extracted keypoint sequences are used to train a neural network we developed, in order to generate new keypoint sequences. This was achieved by using a recurrent neural network design. These networks can analyze given time series and make predictions about the most likely next value in such a time series. Below, we extracted a snippet from the production code which creates and trains our neural network when executed:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x, y <span style="color:#f92672">=</span> get_training_data(
@@ -80,10 +86,22 @@ model<span style="color:#f92672">.</span>train(
     x, y,
     epochs<span style="color:#f92672">=</span>epochs,
     batch_size<span style="color:#f92672">=</span>batch_size)
-</code></pre></div><h2 id="visualization">Visualization</h2>
+</code></pre></div><br/>
+<h3 id="software-1">Software</h3>
+<ul>
+<li><a href="https://www.tensorflow.org/">Tensorflow →</a></li>
+<li><a href="https://keras.io/">Keras →</a></li>
+</ul>
+<br/>
+<h2 id="visualization">Visualization</h2>
 <p>Since the aim of Deep.Dance was to have human dancers perform generated movement sequences, there was a need for a tool that could create a visual representation of these sequences. This tool facilitated the learning process by providing a sequence player with controls known from video players, such as play, pause etc.</p>
 <p><img src="https://erak.github.io/deep-dance-website/aboutCoding.jpg" alt=""></p>
 <p>Please refer to the <a href="https://github.com/deep-dance/visualizer/">Github →</a> documentation for more information.</p>
+<h3 id="software-2">Software</h3>
+<ul>
+<li><a href="https://threejs.org/">Three.js →</a></li>
+</ul>
+<br/>
 <h1 id="light-animation">Light animation</h1>
 <p>The stage design of Deep.Dance required a custom light control system that was able to animate LED lights based on the data points in the created movement sequences.</p>
 <p>Read more and get the code on <a href="https://github.com/deep-dance/lights">Github →</a>.</p>

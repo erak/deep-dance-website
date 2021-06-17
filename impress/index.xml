@@ -2,10 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Impress on deep.dance</title>
-    <link>https://erak.github.io/deep-dance-website/impress/</link>
+    <link>https://deep.dance/impress/</link>
     <description>Recent content in Impress on deep.dance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Apr 2019 22:47:09 +0200</lastBuildDate><atom:link href="https://erak.github.io/deep-dance-website/impress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Apr 2019 22:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://deep.dance/impress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

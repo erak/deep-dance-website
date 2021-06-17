@@ -2,10 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Read more about the code on deep.dance</title>
-    <link>https://erak.github.io/deep-dance-website/code/</link>
+    <link>https://deep.dance/code/</link>
     <description>Recent content in Read more about the code on deep.dance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 May 2021 22:47:09 +0200</lastBuildDate><atom:link href="https://erak.github.io/deep-dance-website/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 May 2021 22:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://deep.dance/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
